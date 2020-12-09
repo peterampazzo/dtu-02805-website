@@ -20,9 +20,7 @@ The correlation between the sentiment and collaborations is just -0.12 which ind
 The boxplot shows small differences between the groups but together with the weak correlation, this indicates that the sentiment of the lyrics are no related to how much an artist collaborates.
 However, as this analysis is only carried out on a small proportion of the total number of songs for every artist the conclusion could potentially change by adding more lyrics.
 
-It is as well interesting to see that only two of the most central artists, *Lil Wayne* and *Busta Rhymes*, appear as well in the top collaborators.
-Following the example used when evaluating centrality, we can conclude that *Pitbull* is only a central element and not a part of the *kings of collaborations*,
-since all the above artists have more collaborations.
+## Timeline
 
 As a final measure, we want to establish if the number of collaborations has changed throughout the history of time.
 As the graph below shows the number of songs released has changed dramatically throughout time.
