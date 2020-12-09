@@ -8,10 +8,12 @@ To prepare the network initial filtering of the network was needed based on thre
 
 1. **Remove artist which has no collaborations**
    - If an artist do not have any collaborations with other artists there is no meaningful way to use it in the analysis, the artists are therefore removed.
+   
 1. **Remove artist with too few song lyrics**
    - As a part of data retrieval the top 5 song lyrics (accordingly to the Spotify ratings in USA) were acquired from [Genius](https://genius.com/).
      However, for some nodes all 5 song lyrics were not succesfully acquired due the song being less famous or pure instrumental.
      Therefore only artist which had 3 or more song lyrics downloaded were kept in the network.
+     
 1. **Remove artist which song lyrics are not in english**
    - Some artists mainly had song lyrics which were in a different language than english, these artists were also removed.
 
