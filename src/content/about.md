@@ -12,9 +12,9 @@ The data used for the analysis was extracted from [Spotify Web API](https://deve
 
 The detailed analysis behind the webpage can by found in the [Explainer notebook](), and the code and the data can be found in the links below:
 
-- Link to [github]() repository.
-- Link to [github](https://github.com/peterampazzo/dtu-02805-website/) for the creation of the webpage
-- Link to [data]() 
+- Link to [github]() repository with notebooks for the analysis and data collection.
+- Link to [github](https://github.com/peterampazzo/dtu-02805-website/) repostitory for the creation of the webpage.
+- Link to the bulk [data]() which is not stored on github due to data limitations.
 
 The authors of the webpage are:
 
