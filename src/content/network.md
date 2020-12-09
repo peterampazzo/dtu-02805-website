@@ -31,5 +31,5 @@ As certain connections will occurr more often than others, a weight is included 
 The same is done for the nodes, if a genre appears more often the weight of the node will increase.
 
 Once the network is created, it is possible to divide it into partitions.
-By evaluating the wordclouds of the genre names for each partition, we can detect an overall genre or family genre
-for the partition that embraces the motive of the wordcloud and thereby detect which genre/partition an artist belongs to.
+By evaluating the word clouds of the genre names for each partition, we can detect an overall genre or family genre
+for the partition that embraces the motive of the word cloud and thereby detect which genre/partition an artist belongs to.
