@@ -30,8 +30,8 @@ const Part2 = ({ data }) => {
       nav={{
         prev: { title: "About", link: "/about/" },
         next: {
-          title: "How do artist collaborate?",
-          link: "/how-do-artist-collaborate/",
+          title: "How do artists collaborate?",
+          link: "/how-do-artists-collaborate/",
         },
       }}
     >

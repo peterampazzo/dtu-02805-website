@@ -6,24 +6,24 @@ import FormControlLabel from "@material-ui/core/FormControlLabel"
 
 import { ResponsiveNetwork } from "@nivo/network"
 
-import DollyParton from "../../data/network-dolly-parton.json"
-import Pitbul from "../../data/network-pitbull.json"
-import TaylorSwift from "../../data/network-taylor-swift.json"
-import TheBeatles from "../../data/network-the-beatles.json"
+import ChildishGambino from "../../data/network-childish-gambino.json"
+import CrystalFighters from "../../data/network-crystal-fighters.json"
+import Strormzy from "../../data/network-stormzy.json"
+import Tyler from "../../data/network-tyler.json"
 
-const Network = () => {
-  const [data, setData] = useState(Pitbul)
-  const [artist, setArtist] = useState("Pitbul")
+const OurNetwork = () => {
+  const [data, setData] = useState(CrystalFighters)
+  const [artist, setArtist] = useState("CrystalFighters")
 
   useEffect(() => {
-    if (artist === "Beatles") {
-      setData(TheBeatles)
-    } else if (artist === "Pitbul") {
-      setData(Pitbul)
-    } else if (artist === "Taylor") {
-      setData(TaylorSwift)
-    } else if (artist === "Parton") {
-      setData(DollyParton)
+    if (artist === "CrystalFighters") {
+      setData(CrystalFighters)
+    } else if (artist === "Strormzy") {
+      setData(Strormzy)
+    } else if (artist === "Tyler") {
+      setData(Tyler)
+    } else if (artist === "Childish") {
+      setData(ChildishGambino)
     }
   }, [artist])
 
@@ -41,18 +41,22 @@ const Network = () => {
         }}
         row
       >
-        <FormControlLabel value={"Parton"} control={<Radio />} label="Dolly Parton" />
-        <FormControlLabel value={"Pitbul"} control={<Radio />} label="Pitbul" />
         <FormControlLabel
-          value={"Taylor"}
+          value={"Childish"}
           control={<Radio />}
-          label="Taylor Swift"
+          label="Childish Gambino"
         />
         <FormControlLabel
-          value={"Beatles"}
+          value={"CrystalFighters"}
           control={<Radio />}
-          label="The Beatles"
+          label="Crystal Fighters"
         />
+        <FormControlLabel
+          value={"Strormzy"}
+          control={<Radio />}
+          label="Strormzy"
+        />
+        <FormControlLabel value={"Tyler"} control={<Radio />} label="Tyler" />
       </RadioGroup>
 
       <div style={{ height: `450px`, marginTop: `20px` }}>
@@ -60,7 +64,7 @@ const Network = () => {
           nodes={data.nodes}
           links={data.links}
           margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
-          repulsivity={60}
+          repulsivity={300}
           iterations={60}
           nodeColor={function (e) {
             return e.color
@@ -89,4 +93,4 @@ const Network = () => {
   )
 }
 
-export default Network
+export default OurNetwork

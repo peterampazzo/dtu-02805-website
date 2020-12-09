@@ -92,7 +92,7 @@ const Header = ({ siteTitle }) => {
           </li>
           <li style={bulletStyle}>
             <Link
-              to="/how-do-artist-collaborate/"
+              to="/how-do-artists-collaborate/"
               style={{ color: `white` }}
               onClick={() => setMenu(false)}
             >

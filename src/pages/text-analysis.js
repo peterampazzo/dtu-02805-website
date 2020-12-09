@@ -26,8 +26,8 @@ const Page3 = ({ data }) => {
       title="Text Analysis"
       nav={{
         prev: {
-          title: "How do artist collaborate?",
-          link: "/how-do-artist-collaborate/",
+          title: "How do artists collaborate?",
+          link: "/how-do-artists-collaborate/",
         },
         next: { title: "Conclusion", link: "/conclusion/" },
       }}

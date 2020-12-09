@@ -7,6 +7,7 @@ import {
   FiChevronLeft,
   FiGithub,
   FiFileText,
+  FiHardDrive,
 } from "react-icons/fi"
 
 import Header from "./header"
@@ -108,9 +109,16 @@ const Layout = ({ children, title, sub, nav }) => {
           }}
         >
           <a href="">
-            <FiGithub
+            <FiGithub size={40} style={{ color: `#3cb371` }} />
+          </a>
+          <a href="">
+            <FiHardDrive
               size={40}
-              style={{ marginRight: `30px`, color: `#3cb371` }}
+              style={{
+                marginRight: `30px`,
+                marginLeft: `30px`,
+                color: `#3cb371`,
+              }}
             />
           </a>
           <a href="">

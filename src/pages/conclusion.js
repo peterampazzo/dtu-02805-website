@@ -3,6 +3,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Network from "../components/viz/our-network"
+
 const Page5 = ({ data }) => {
   const { markdownRemark } = data
   const { html } = markdownRemark
@@ -21,6 +23,8 @@ const Page5 = ({ data }) => {
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}
       />
+      <h2 style={{ textAlign: `center` }}>Our favourite artists</h2>
+      <Network />
     </Layout>
   )
 }

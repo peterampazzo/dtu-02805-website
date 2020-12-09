@@ -13,13 +13,13 @@ import artists from "../data/collab-artists.json"
 const Page3 = ({ data }) => {
   return (
     <Layout
-      title="How do artist collaborate?"
+      title="How do artists collaborate?"
       nav={{
         prev: { title: "Introduction to the Network", link: "/network/" },
         next: { title: "Text Analysis", link: "/text-analysis/" },
       }}
     >
-      <SEO title="How do artist collaborate?" />
+      <SEO title="How do artists collaborate?" />
 
       <div
         className="blog-post-content"
