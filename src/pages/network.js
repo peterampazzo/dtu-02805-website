@@ -99,7 +99,7 @@ const Part2 = ({ data }) => {
       <Network />
       <div
         className="blog-post-content"
-        dangerouslySetInnerHTML={{ __html: data.part2.html }}
+        dangerouslySetInnerHTML={{ __html: data.part3.html }}
       />
     </Layout>
   )

@@ -17,6 +17,11 @@ h1 {
   font-weight: 700;
 }
 
+li {
+  position: relative;
+  padding-bottom: 10px;
+}
+
 table {
   background: white;
   border-radius: 3px;
