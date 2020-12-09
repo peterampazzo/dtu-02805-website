@@ -11,8 +11,8 @@ const Part1 = ({ data }) => {
     <Layout
       title="About"
       nav={{
-        prev: { title: "Home Page", link: "/" },
-        next: { title: "Title Part 2", link: "/network/" },
+        prev: { title: "Introduction", link: "/" },
+        next: { title: "Introduction to the Network", link: "/network/" },
       }}
     >
       <SEO title="About" />

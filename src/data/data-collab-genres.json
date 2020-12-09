@@ -1,58 +1,42 @@
 [
   {
     "genre": "Hip-Hop",
-    "other": 66.97247706422019,
-    "otherColor": "rgb(60,179,113)",
-    "top": 33.027522935779814,
-    "topColor": "rgb(72,61,139)"
+    "Other artists": 66.97247706422019,
+    "Top collaborators": 33.027522935779814
   },
   {
     "genre": "Alternative",
-    "other": 98.93428063943162,
-    "otherColor": "rgb(60,179,113)",
-    "top": 1.0657193605683837,
-    "topColor": "rgb(72,61,139)"
+    "Other artists": 98.93428063943162,
+    "Top collaborators": 1.0657193605683837
   },
   {
     "genre": "Rock",
-    "other": 98.12889812889813,
-    "otherColor": "rgb(60,179,113)",
-    "top": 1.8711018711018712,
-    "topColor": "rgb(72,61,139)"
+    "Other artists": 98.12889812889813,
+    "Top collaborators": 1.8711018711018712
   },
   {
     "genre": "Funk-Soul",
-    "other": 91.02844638949672,
-    "otherColor": "rgb(60,179,113)",
-    "top": 8.971553610503282,
-    "topColor": "rgb(72,61,139)"
+    "Other artists": 91.02844638949672,
+    "Top collaborators": 8.971553610503282
   },
   {
     "genre": "Pop",
-    "other": 85.15406162464986,
-    "otherColor": "rgb(60,179,113)",
-    "top": 14.84593837535014,
-    "topColor": "rgb(72,61,139)"
+    "Other artists": 85.15406162464986,
+    "Top collaborators": 14.84593837535014
   },
   {
     "genre": "Country",
-    "other": 97.01492537313433,
-    "otherColor": "rgb(60,179,113)",
-    "top": 2.985074626865672,
-    "topColor": "rgb(72,61,139)"
+    "Other artists": 97.01492537313433,
+    "Top collaborators": 2.985074626865672
   },
   {
     "genre": "Punk",
-    "other": 98.78787878787878,
-    "otherColor": "rgb(60,179,113)",
-    "top": 1.2121212121212122,
-    "topColor": "rgb(72,61,139)"
+    "Other artists": 98.78787878787878,
+    "Top collaborators": 1.2121212121212122
   },
   {
     "genre": "Reggae",
-    "other": 92.15686274509804,
-    "otherColor": "rgb(60,179,113)",
-    "top": 7.8431372549019605,
-    "topColor": "rgb(72,61,139)"
+    "Other artists": 92.15686274509804,
+    "Top collaborators": 7.8431372549019605
   }
 ]

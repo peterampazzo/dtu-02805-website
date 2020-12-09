@@ -84,7 +84,7 @@ const Genres = () => {
           axisRight={null}
           axisBottom={{
             tickSize: 0,
-            legend: "Ratio of collaboration to genre #",
+            legend: "Ratio of collaboration to genre",
             legendPosition: "middle",
             legendOffset: 32,
           }}

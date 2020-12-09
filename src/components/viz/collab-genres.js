@@ -5,8 +5,8 @@ import data from "../../data/data-collab-genres.json"
 
 const CollabGenres = () => {
   const colors = {
-    top: "#483d8b",
-    other: "#3cb371",
+    "Top collaborators": "#483d8b",
+    "Other artists": "#3cb371",
   }
   return (
     <div style={{ marginTop: `60px`, marginBottom: `60px` }}>
@@ -16,7 +16,7 @@ const CollabGenres = () => {
       <div style={{ height: `450px` }}>
         <ResponsiveBar
           data={data}
-          keys={["other", "top"]}
+          keys={["Other artists", "Top collaborators"]}
           indexBy="genre"
           margin={{ top: 50, right: 130, bottom: 50, left: 90 }}
           padding={0.3}

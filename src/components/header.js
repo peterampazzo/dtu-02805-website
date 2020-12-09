@@ -23,8 +23,8 @@ const Header = ({ siteTitle }) => {
         minHeight: menu ? `200px` : `30px`,
         backgroundColor: `#191414`,
         transition: `min-height 0.5s ease`,
+        borderBottom: menu ? `2px solid #1bd954` : ``,
       }}
-      className={menu ? `pattern-diagonal-stripes-xl` : ``}
     >
       <div
         style={{

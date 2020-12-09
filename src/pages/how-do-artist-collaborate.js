@@ -15,7 +15,7 @@ const Page3 = ({ data }) => {
     <Layout
       title="How do artist collaborate?"
       nav={{
-        prev: { title: "Network", link: "/network/" },
+        prev: { title: "Introduction to the Network", link: "/network/" },
         next: { title: "Text Analysis", link: "/text-analysis/" },
       }}
     >

@@ -18,6 +18,28 @@ const Layout = ({ children, title, sub, nav }) => {
     }
   `)
 
+  const NavLink = ({ to, start = true, children }) => (
+    <Link
+      to={to}
+      style={{
+        width: `200px`,
+        fontSize: `20px`,
+        fontWeight: 500,
+        textDecoration: `none`,
+        display: `flex`,
+        justifyContent: start ? `flex-start` : `flex-end`,
+        alignItems: `center`,
+        color: `#1bd954`,
+        backgroundColor: `#191414`,
+        padding: `10px`,
+        borderRadius: `15px`,
+        boxShadow: `-10px 10px 60px rgba(0,0,0,.4)`,
+      }}
+    >
+      {children}
+    </Link>
+  )
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title} />
@@ -41,8 +63,8 @@ const Layout = ({ children, title, sub, nav }) => {
             <div
               style={{
                 marginTop: `20px`,
-                borderTopColor: `#2a9d8f`,
-                borderTopWidth: `2px`,
+                borderTopColor: `#1bd954`,
+                borderTopWidth: `3px`,
                 borderTopStyle: `solid`,
                 padding: `20px`,
                 display: `flex`,
@@ -50,40 +72,18 @@ const Layout = ({ children, title, sub, nav }) => {
               }}
             >
               {nav.prev ? (
-                <Link
-                  to={nav.prev.link}
-                  style={{
-                    fontFamily: `Amaranth`,
-                    fontSize: `20px`,
-                    fontWeight: 500,
-                    textDecoration: `none`,
-                    display: `flex`,
-                    alignItems: `center`,
-                    color: `#e76f51`,
-                  }}
-                >
-                  <FiChevronLeft style={{ marginRight: `10px` }} />
+                <NavLink to={nav.prev.link}>
+                  <FiChevronLeft style={{ marginRight: `10px` }} size={40} />
                   {nav.prev.title}
-                </Link>
+                </NavLink>
               ) : (
                 <span></span>
               )}
               {nav.next ? (
-                <Link
-                  to={nav.next.link}
-                  style={{
-                    fontFamily: `Amaranth`,
-                    fontSize: `20px`,
-                    fontWeight: 500,
-                    textDecoration: `none`,
-                    display: `flex`,
-                    alignItems: `center`,
-                    color: `#e76f51`,
-                  }}
-                >
+                <NavLink to={nav.next.link} start={false}>
                   {nav.next.title}
-                  <FiChevronRight style={{ marginLeft: `10px` }} />
-                </Link>
+                  <FiChevronRight style={{ marginLeft: `10px` }} size={60} />
+                </NavLink>
               ) : (
                 <span></span>
               )}

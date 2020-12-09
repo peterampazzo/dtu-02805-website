@@ -3,11 +3,10 @@ import React from "react"
 const Hero = ({ title, sub }) => {
   return (
     <div
-      className="pattern-grid-lg"
       style={{
-        backgroundColor: `#264653`,
-        color: `#2A9D8F`,
-        padding: `8rem`,
+        backgroundColor: `#191414`,
+        color: `#1bd954`,
+        padding: `60px`,
         display: `flex`,
         flexDirection: `column`,
         alignItems: `center`,
@@ -19,7 +18,6 @@ const Hero = ({ title, sub }) => {
           margin: `auto`,
           fontSize: `80px`,
           fontWeight: 700,
-          color: `#F4A261`,
           textTransform: `uppercase`,
         }}
       >
