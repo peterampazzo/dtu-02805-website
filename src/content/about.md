@@ -10,9 +10,8 @@ The data used for the analysis was extracted from [Spotify Web API](https://deve
 
 <img src="../images/ab_s3.png" width="25%">
 
-The analysis behind the webpage can by found in the [Explainer Notebook](link) **OBS, NEEDS LINK!** and the data extracted and used for the analysis is found [here](link) **OBS, LINK FOR DATA!**.
+The detailed analysis behind the webpage can by found in the [Explainer notebook](), and the code and the data can be found in the links bellow:
 
-- Link to the [Explainer notebook]()
 - Link to [github]() with all notebooks and small txt explainer file
 - Link to [github](https://github.com/peterampazzo/dtu-02805-website/) for the web
 - Link to [data]()
