@@ -23,7 +23,7 @@ From Spotify information about the genre of an artist is also available.
 Most artists will have several different genres, a genre list, which for data analysis makes it diffcult to work with.
 To deal with this problem a network of genres was therefore constructed.
 
-<img src="../images/nw_genres.png" width="75%" />
+<img src="../images/nw_genres.png" width="110%" />
 
 In this network each node represents a genre and the edges represent if an artist has both of these genres in its genre list.
 This means that if for example the artist Childish Gambino has the genres Rap and Hip-hop an edge is created between these two genres.
