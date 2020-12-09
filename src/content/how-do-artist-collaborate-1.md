@@ -64,7 +64,10 @@ However, it does seem that generally the artists with a higher level of populari
 
 As seen previously it was found that among the top 10 collaborators most of the artists belonged to the _Hip-Hop_ genre.
 The question is however if this is a general trend of simply a coincidence.
-We, therefore, want to answer the question: _Do artist from certain genres collaborates more than others?_
+We, therefore, want to answer the question: 
+
+> _Do artist from certain genres collaborates more than others?_
+
 But furthermore also if artist tends to collaborate within their genre or between genres.
 Below the distribution for every genre is showed.
 To make comparing the plots easier all plots are cut off at a degree of 100.
