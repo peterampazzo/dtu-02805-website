@@ -28,4 +28,4 @@ The chosen genres for every artist thus might not be always correct and the fact
 which again might influence the results.
 
 
-As a final feature below the network of collaborations for some of the favorite artists of the authors are showed.
+As a final feature, and to end with a funny note, the network of collaborations for some of the authors favourite artists are displayed below.
