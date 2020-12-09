@@ -1,7 +1,16 @@
 import React from "react"
 import { FiShare2, FiStar } from "react-icons/fi"
 
-const Card = ({ name, degree, popularity, genre, color, image }) => (
+const Card = ({
+  name,
+  degree,
+  popularity,
+  genre,
+  color,
+  image,
+  children,
+  width = "200px",
+}) => (
   <div
     style={{
       margin: `18px`,
@@ -12,7 +21,7 @@ const Card = ({ name, degree, popularity, genre, color, image }) => (
       justifyContent: `center`,
       backgroundColor: color,
       height: `150px`,
-      width: `200px`,
+      width: width,
       borderRadius: `15px`,
       fontSize: `16px`,
       color: `white`,
@@ -20,25 +29,32 @@ const Card = ({ name, degree, popularity, genre, color, image }) => (
       padding: `4px`,
     }}
   >
-    <img
-      src={image}
-      style={{ width: `80px`, borderRadius: `50%`, marginTop: `-40px` }}
-    />
+    {image && (
+      <img
+        src={image}
+        style={{ width: `80px`, borderRadius: `50%`, marginTop: `-40px` }}
+      />
+    )}
     <div style={{ fontSize: `20px`, fontWeight: 900 }}>{name}</div>
-    <div>{genre}</div>
-    <div
-      style={{
-        display: `flex`,
-        marginTop: `20px`,
-      }}
-    >
+    {genre && (
       <div>
-        <FiShare2 /> {degree}
+        <div>{genre}</div>
+        <div
+          style={{
+            display: `flex`,
+            marginTop: `20px`,
+          }}
+        >
+          <div>
+            <FiShare2 /> {degree}
+          </div>
+          <div style={{ marginLeft: `20px` }}>
+            <FiStar /> {popularity}
+          </div>
+        </div>
       </div>
-      <div style={{ marginLeft: `20px` }}>
-        <FiStar /> {popularity}
-      </div>
-    </div>
+    )}
+    {children}
   </div>
 )
 
