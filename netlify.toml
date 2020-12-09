@@ -1,0 +1,7 @@
+[build]
+  base = "/"
+  publish = "public/"
+  command = "yarn run build"
+
+[dev]
+  command = "yarn start"

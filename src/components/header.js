@@ -108,6 +108,15 @@ const Header = ({ siteTitle }) => {
               Text Analysis
             </Link>
           </li>
+          <li style={bulletStyle}>
+            <Link
+              to="/conclusion/"
+              style={{ color: `white` }}
+              onClick={() => setMenu(false)}
+            >
+              Conclusion
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

@@ -29,7 +29,7 @@ const Page3 = ({ data }) => {
           title: "How do artist collaborate?",
           link: "/how-do-artist-collaborate/",
         },
-        next: { title: "Conclusion", link: "/" },
+        next: { title: "Conclusion", link: "/conclusion/" },
       }}
     >
       <SEO title="Text Analysis" />
