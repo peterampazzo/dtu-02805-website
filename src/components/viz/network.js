@@ -6,6 +6,7 @@ import FormControlLabel from "@material-ui/core/FormControlLabel"
 
 import { ResponsiveNetwork } from "@nivo/network"
 
+import DollyParton from "../../data/network-dolly-parton.json"
 import Pitbul from "../../data/network-pitbull.json"
 import TaylorSwift from "../../data/network-taylor-swift.json"
 import TheBeatles from "../../data/network-the-beatles.json"
@@ -21,6 +22,8 @@ const Network = () => {
       setData(Pitbul)
     } else if (artist === "Taylor") {
       setData(TaylorSwift)
+    } else if (artist === "Parton") {
+      setData(DollyParton)
     }
   }, [artist])
 
@@ -38,6 +41,7 @@ const Network = () => {
         }}
         row
       >
+        <FormControlLabel value={"Parton"} control={<Radio />} label="Dolly Parton" />
         <FormControlLabel value={"Pitbul"} control={<Radio />} label="Pitbul" />
         <FormControlLabel
           value={"Taylor"}
@@ -56,8 +60,8 @@ const Network = () => {
           nodes={data.nodes}
           links={data.links}
           margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
-          repulsivity={130}
-          iterations={30}
+          repulsivity={120}
+          iterations={60}
           nodeColor={function (e) {
             return e.color
           }}
