@@ -6,20 +6,23 @@ import FormControlLabel from "@material-ui/core/FormControlLabel"
 
 import { ResponsiveNetwork } from "@nivo/network"
 
+import Ariana from "../../data/network-ariana-grande.json"
+import Beyonce from "../../data/network-beyonce.json"
 import ChildishGambino from "../../data/network-childish-gambino.json"
 import CrystalFighters from "../../data/network-crystal-fighters.json"
-import Strormzy from "../../data/network-stormzy.json"
 import Tyler from "../../data/network-tyler.json"
 
 const OurNetwork = () => {
-  const [data, setData] = useState(CrystalFighters)
-  const [artist, setArtist] = useState("CrystalFighters")
+  const [data, setData] = useState(Ariana)
+  const [artist, setArtist] = useState("Ariana")
 
   useEffect(() => {
-    if (artist === "CrystalFighters") {
+    if (artist === "Ariana") {
+      setData(Ariana)
+    } else if (artist === "Beyonce") {
+      setData(Beyonce)
+    } else if (artist === "CrystalFighters") {
       setData(CrystalFighters)
-    } else if (artist === "Strormzy") {
-      setData(Strormzy)
     } else if (artist === "Tyler") {
       setData(Tyler)
     } else if (artist === "Childish") {
@@ -42,6 +45,16 @@ const OurNetwork = () => {
         row
       >
         <FormControlLabel
+          value={"Ariana"}
+          control={<Radio />}
+          label="Ariana Grande"
+        />
+        <FormControlLabel
+          value={"Beyonce"}
+          control={<Radio />}
+          label="Beyoncé"
+        />
+        <FormControlLabel
           value={"Childish"}
           control={<Radio />}
           label="Childish Gambino"
@@ -52,11 +65,10 @@ const OurNetwork = () => {
           label="Crystal Fighters"
         />
         <FormControlLabel
-          value={"Strormzy"}
+          value={"Tyler"}
           control={<Radio />}
-          label="Strormzy"
+          label="Tyler, The Creator"
         />
-        <FormControlLabel value={"Tyler"} control={<Radio />} label="Tyler, The Creator" />
       </RadioGroup>
 
       <div style={{ height: `450px`, marginTop: `20px` }}>
