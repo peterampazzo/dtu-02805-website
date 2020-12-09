@@ -26,4 +26,4 @@ It is as well interesting to see that the lowest medians and ranges are for the 
 Which indicates that indeed these genres will tend to have a lower number of collaborations.
 
 As an extension to the question of whether or not the level of collaboration and genre are intertwined it is interesting
-to analyse if collaborations happen within the same genre or between genres?
+to analyse if collaborations happen internatilly within the same genre or between genres?
