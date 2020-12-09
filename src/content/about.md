@@ -14,7 +14,7 @@ The detailed analysis behind the webpage can be found in the [Explainer notebook
 
 - Link to the [github](https://github.com/andreas-kaae/socialgraphs2020_artists_collaborations_network) repository with notebooks for the analysis and data collection.
 - Link to the [github](https://github.com/peterampazzo/dtu-02805-website/) repository for the creation of the webpage.
-- Link to the bulk [data]() which is not stored on github due to data limitations.
+- Link to the bulk [data](https://dtudk.sharepoint.com/:f:/r/sites/SocialGraphs/Shared%20Documents/project-data?csf=1&web=1&e=GCJcyZ) which is not stored on github due to data limitations.
 
 The authors of the webpage are:
 

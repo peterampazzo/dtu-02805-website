@@ -56,7 +56,7 @@ const OurNetwork = () => {
           control={<Radio />}
           label="Strormzy"
         />
-        <FormControlLabel value={"Tyler"} control={<Radio />} label="Tyler" />
+        <FormControlLabel value={"Tyler"} control={<Radio />} label="Tyler, The Creator" />
       </RadioGroup>
 
       <div style={{ height: `450px`, marginTop: `20px` }}>

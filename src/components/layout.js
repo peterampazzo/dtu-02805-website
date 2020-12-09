@@ -108,10 +108,10 @@ const Layout = ({ children, title, sub, nav }) => {
             alignItems: `center`,
           }}
         >
-          <a href="">
+          <a href="https://github.com/andreas-kaae/socialgraphs2020_artists_collaborations_network">
             <FiGithub size={40} style={{ color: `#3cb371` }} />
           </a>
-          <a href="">
+          <a href="https://dtudk.sharepoint.com/:f:/r/sites/SocialGraphs/Shared%20Documents/project-data?csf=1&web=1&e=GCJcyZ">
             <FiHardDrive
               size={40}
               style={{
