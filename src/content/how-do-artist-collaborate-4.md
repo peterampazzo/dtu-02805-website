@@ -35,7 +35,7 @@ The graph above resembles an exponential function. Before the 1960s not many son
 However, after this point more and more songs are released and as we get closer to 2020 the number of songs released increases exponentially.
 This plot only shows the evolution of the songs in total.
 To see if the pattern is similar for the different genres the visualization below is constructed.
-<img src="../images/area_plot.png" width="75%" />
+<img src="../images/area_plot0.png" width="75%" />
 
 The area plot illustrates how different genres have evolved throughout time for our subset of artists and songs.
 Due to the limited about of songs before 1960 these are not included in the graph.
