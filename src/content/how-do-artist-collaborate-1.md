@@ -45,7 +45,7 @@ _Drake_ is the most popular artist in the network and is also very well connecte
 It is however interesting to see that an artist like _Taylor Swift_ only has a degree of 15 but still is among the top 10 most popular artists.
 To further answer the question the popularity is plotted against the degree.
 
-<img src="../images/corr_pop.png" width="100%" />
+<img src="../images/corr_pop.png" width="120%" />
 
 The overall correlation between the popularity and degree is 0.38, which indicates a weak relation between to two variables.
 However, it is possible to observe that the nodes with the highest degree behave differently than the lowest ones. The popularity of the artists with a lower degree ranges greatly, but for the top collaborators, the popularity generally increases with the increase of degree.
