@@ -14,7 +14,8 @@ since all the above artists have more collaborations.
 ## Popularity
 
 > _Are the artists that collaborate the most, the ones with the highest popularity?_
- To answer this question we first all need to establish what popularity is.
+
+To answer this question we first all need to establish what popularity is.
 The popularity is a measure calculated by Spotify and is a value between 0 and 100, where 100 is the most popular.
 For the artist, the measure is based on the popularity of all the artist's tracks, which again is based on the total number of plays and how recent these plays are.
 
