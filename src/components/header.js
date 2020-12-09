@@ -30,13 +30,13 @@ const Header = ({ siteTitle }) => {
         style={{
           display: `flex`,
           justifyContent: `space-between`,
-          alignItems: `baseline`,
+          alignItems: `center`,
           margin: `0 auto`,
           maxWidth: 960,
           padding: `1.45rem 1.0875rem`,
         }}
       >
-        <h3 style={{ margin: 0 }}>
+        <h3 style={{ margin: 0, fontFamily: `Amaranth, sans-serif` }}>
           <Link
             to="/"
             style={{
