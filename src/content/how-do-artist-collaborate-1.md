@@ -69,7 +69,7 @@ But furthermore also if artist tends to collaborate within their genre or betwee
 Below the distribution for every genre is showed.
 To make comparing the plots easier all plots are cut off at a degree of 100.
 
-<img src="../images/colb_gen1.png" width="100%" />
+<img src="../images/colb_gen1.png" width="120%" />
 
 The _power-law distribution_ is maintained for all genres, but with clear differences.
 The distribution for _Hip-Hop_ artists is wider, with a smaller number of artists at lower degrees compared to other genres.
@@ -78,7 +78,7 @@ Contrary, _Alternative_, _Rock_ and _Punk_ are the genres with the tightest skew
 The distribution plots thus indicate that the level of collaboration might depend on the genre.
 To get a clearer view we can zoom-in on the top collaborators.
 
-<img src="../images/colb_gen2.png" width="100%" />
+<img src="../images/colb_gen2.png" width="120%" />
 
 By zooming in on the top collaborators, it is possible to confirm the importance of _Hip-Hop_.
 For degrees higher than 60, the other genres only appear sporadically.
