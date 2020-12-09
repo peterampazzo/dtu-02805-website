@@ -121,7 +121,7 @@ const Layout = ({ children, title, sub, nav }) => {
               }}
             />
           </a>
-          <a href="https://nbviewer.jupyter.org/github/andreas-kaae/socialgraphs2020_artists_collaborations_network/blob/main/main_TheExplainerNotebook.ipynb">
+          <a href="https://andreas-kaae.github.io/socialgraphs2020_artists_collaborations_network/main_TheExplainerNotebook">
             <FiFileText size={40} style={{ color: `#3cb371` }} />
           </a>
         </footer>
