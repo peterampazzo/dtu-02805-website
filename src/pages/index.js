@@ -1,33 +1,53 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import { Link } from "gatsby"
+import { FiPlayCircle } from "react-icons/fi"
 import SEO from "../components/seo"
 
-const IndexPage = ({ data }) => {
-  const { markdownRemark } = data
-  const { html } = markdownRemark
+const HopePage = () => {
   return (
-    <Layout
-      title="Introduction"
-      nav={{
-        next: { title: "About", link: "/about/" },
+    <div
+      style={{
+        height: `100vh`,
+        width: `100vw`,
+        backgroundColor: `#3cb371`,
+        color: `#191414`,
+        display: `flex`,
+        justifyContent: `center`,
+        alignItems: `center`,
+        flexDirection: `column`,
       }}
+      className="pattern-dots-md"
     >
-      <SEO title="Home" />
-      <div
-        className="blog-post-content"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    </Layout>
+      <SEO title="Home Page" />
+      <h1 style={{ fontSize: `90px`, color: `#fff`, marginBottom: `0px` }}>
+        Artists Collaboration
+      </h1>
+      <h1 style={{ fontSize: `90px`, color: `#fff`, marginTop: `0px` }}>
+        Network
+      </h1>
+      <Link
+        to="/introduction/"
+        style={{
+          width: `200px`,
+          fontSize: `30px`,
+          fontWeight: 500,
+          textDecoration: `none`,
+          display: `flex`,
+          justifyContent: `space-evenly`,
+          alignItems: `center`,
+          textAlign: `center`,
+          color: `#fff`,
+          backgroundColor: `#191414`,
+          padding: `10px`,
+          borderRadius: `15px`,
+          boxShadow: `-10px 10px 60px rgba(0,0,0,.4)`,
+        }}
+      >
+        Go <FiPlayCircle size={30}  />
+      </Link>
+    </div>
   )
 }
 
-export default IndexPage
-
-export const pageQuery = graphql`
-  query {
-    markdownRemark(frontmatter: { id: { eq: 0 } }) {
-      html
-    }
-  }
-`
+export default HopePage

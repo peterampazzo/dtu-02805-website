@@ -3,20 +3,17 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Part1 = ({ data }) => {
+const IndexPage = ({ data }) => {
   const { markdownRemark } = data
   const { html } = markdownRemark
-
   return (
     <Layout
-      title="About"
+      title="Introduction"
       nav={{
-        prev: { title: "Introduction", link: "/introduction/" },
-        next: { title: "Introduction to the Network", link: "/network/" },
+        next: { title: "About", link: "/about/" },
       }}
     >
-      <SEO title="About" />
-
+      <SEO title="Home" />
       <div
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}
@@ -25,11 +22,11 @@ const Part1 = ({ data }) => {
   )
 }
 
-export default Part1
+export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    markdownRemark(frontmatter: { id: { eq: 1 } }) {
+    markdownRemark(frontmatter: { id: { eq: 0 } }) {
       html
     }
   }

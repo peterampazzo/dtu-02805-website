@@ -72,6 +72,15 @@ const Header = ({ siteTitle }) => {
         }}
       >
         <ul style={{ color: `white`, marginX: `auto` }}>
+        <li style={bulletStyle}>
+            <Link
+              to="/introduction/"
+              style={{ color: `white` }}
+              onClick={() => setMenu(false)}
+            >
+              Intro
+            </Link>
+          </li>
           <li style={bulletStyle}>
             <Link
               to="/about/"
