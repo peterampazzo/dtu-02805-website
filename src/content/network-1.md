@@ -11,7 +11,7 @@ For the purpose of our analysis the procedure applied is however needed, and the
 
 The final network of artists is thus made up of 3098 artists with 17155 collaborations from 8 different genres: _Pop_, _Rock_, _Alternative_, _Hip-Hop_, _Country_, _Reggae_, _Funk-Soul_ and _Punk_.
 
-<img src="../images/nw_artists.png" width="110%" />
+<img src="../images/nw_artists.png" width="120%" />
 
 The visualization shows how the different genre types are mostly grouped together but also that some genres like the _Funk-Soul_ genres is scattered around the network.
 The node size is set accordingly to how many other artists the artist is connected to.
