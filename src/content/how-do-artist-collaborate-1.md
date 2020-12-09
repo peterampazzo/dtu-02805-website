@@ -8,7 +8,7 @@ More interesting is that all except one artist are from the genre _Hip-Hop_ and 
 We could already make some hypothesis, will _Hip-Hop_ artists be the ones that have more collaborations?
 
 It is as well interesting to see that only two of the most central artists, Lil Wayne* and *Busta Rhymes*, appear as well in the top collaborators.
-Following the example used when evaluating centrality, we can conclude that *Pitbull* is only a central element and not a part of the *kings of collaborations\*,
+Following the example used when evaluating centrality, we can conclude that *Pitbull* is only a central element and not a part of the *kings of collaborations*,
 since all the above artists have more collaborations.
 
 ## Popularity
