@@ -4,9 +4,9 @@ id: 3.4
 
 The visualization shows how much each genre collaborates within itself or with other genres. By analysing the plot the following observations are made:
 
-- Two of genres that reached the highest degree, _Hip-Hop_ and _Reggae_, are also the ones with the higher ratio of edges within the same genre, 64% and 47% respectively. This could indicate that to reach a higher number of collaborations it is important to have a strong proximity with artists from the same genre.
+- The genres that reached to the highest degree, _Hip-Hop_ and _Reggae_, are the ones with the higher ratio of edges within the same genre; 64% and 47% respectively. This could indicate that to reach a higher number of collaborations it is important to have a strong proximity with artists from the same genre.
 - _Country_ as well mostly collaborates within its genre with a ratio of 45%, almost the same as _Reggae_.
-- _Pop_ artists, which was also found to reach higher degree, collaborate a lot with _Hip-Hop_, in fact as much as with artist from their genre.
+- _Pop_ artists collaborate a lot with _Hip-Hop_, in fact as much as they collaborate with artist from their genre.
 - Surprisingly, _Punk_ artist collaborate a lot with _Hip-Hop_ artists,
   more than 30% of its collaborations were with _Hip-Hop_ artists.
 - Similarly, the biggest collaborator for _Funk-Soul_ is by far _Hip-Hop_, with 51% of its collaborations. However,

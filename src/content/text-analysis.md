@@ -1,7 +1,6 @@
 ---
 id: 4.1
 ---
-## Wordclouds
 
 With the question of how artist collaborates answered, we now want to extend our analysis by analysing the texts further.
 To do this word clouds based on the lyrics are constructed for every genre.
