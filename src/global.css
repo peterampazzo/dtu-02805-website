@@ -32,6 +32,13 @@ li {
   margin: auto;
 }
 
+blockquote {
+  margin-top: 40px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+
 table {
   background: white;
   border-radius: 3px;

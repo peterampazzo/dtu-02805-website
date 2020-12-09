@@ -3,55 +3,14 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { FiShare2, FiStar } from "react-icons/fi"
-
 import Genres from "../components/viz/genres"
 import GenresCollab from "../components/viz/collab-genres"
+import Card from "../components/artist"
 import colors from "../utils/colors"
 
 import artists from "../data/collab-artists.json"
 
 const Page3 = ({ data }) => {
-  const Card = ({ name, degree, popularity, genre, image }) => (
-    <div
-      style={{
-        margin: `18px`,
-        display: `flex`,
-        textAlign: `center`,
-        alignItems: `center`,
-        flexDirection: `column`,
-        justifyContent: `center`,
-        backgroundColor: colors[genre],
-        height: `150px`,
-        width: `200px`,
-        borderRadius: `15px`,
-        fontSize: `16px`,
-        color: `white`,
-        boxShadow: `-20px 20px 60px rgba(0,0,0,.4)`,
-        padding: `4px`,
-      }}
-    >
-      <img
-        src={image}
-        style={{ width: `80px`, borderRadius: `50%`, marginTop: `-40px` }}
-      />
-      <div style={{ fontSize: `20px`, fontWeight: 900 }}>{name}</div>
-      <div>{genre}</div>
-      <div
-        style={{
-          display: `flex`,
-          marginTop: `20px`,
-        }}
-      >
-        <div>
-          <FiShare2 /> {degree}
-        </div>
-        <div style={{ marginLeft: `20px` }}>
-          <FiStar /> {popularity}
-        </div>
-      </div>
-    </div>
-  )
   return (
     <Layout
       title="How do artist collaborate?"
@@ -83,6 +42,7 @@ const Page3 = ({ data }) => {
             degree={item.degree}
             popularity={item.popularity}
             genre={item.genre}
+            color={colors[item.genre]}
             image={item.image}
             key={i}
           />

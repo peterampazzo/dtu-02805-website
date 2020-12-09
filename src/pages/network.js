@@ -26,7 +26,7 @@ const Part2 = ({ data }) => {
 
   return (
     <Layout
-      title="Network"
+      title="Introduction to the Network"
       nav={{
         prev: { title: "About", link: "/about/" },
         next: {
@@ -35,7 +35,7 @@ const Part2 = ({ data }) => {
         },
       }}
     >
-      <SEO title="Network" />
+      <SEO title="Introduction to the Network" />
       <div
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: data.part1.html }}
