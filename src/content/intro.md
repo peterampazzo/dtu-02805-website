@@ -15,7 +15,7 @@ Is it only popular artists that collaborate?
 Are artist from certain genres more likely to collaborate?
 Do artists mainly collaborate within their own genre or also outside?
 Do artists with happier or sadder song lyrics tend to collaborate more?
-And how about the time, has the level of collaboration change?
+And how about the time, has the level of collaboration changed?
 
 To answer these questions information about artists are gathered from Spotify using the [Spotify Web API](https://developer.spotify.com/documentation/web-api/quick-start/).
 However, as Spotify has more than 50 million tracks available a subset of artists from different genres is retrieved from the list of musicians from [Wikipedia](https://en.wikipedia.org/wiki/Lists_of_musicians).
