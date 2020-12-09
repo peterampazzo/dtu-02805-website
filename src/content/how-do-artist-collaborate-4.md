@@ -4,7 +4,7 @@ id: 3.5
 
 ## Sentiment
 
-Do the artists which collaborate more make songs which are happy or sad? To evaluate this the sentiment of each artist is needed.
+_Do the artists which collaborate more make songs which are happy or sad?_ To evaluate this the sentiment of each artist is needed.
 For every artist, the sentiment for each of the lyrics is calculated and the artist is assigned the average of the lyric sentiments.
 However, the sentiment of each artist is only based on 3-5 song lyrics and can therefore change substantially if more or fewer songs were included.
 To calculate the sentiment the lyrics are compared to a list of words from [LabMT](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026752) which contains the sentiment score of words.
