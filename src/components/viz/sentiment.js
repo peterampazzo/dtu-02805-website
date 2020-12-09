@@ -3,6 +3,8 @@ import React, { useState } from "react"
 import Select from "@material-ui/core/Select"
 import MenuItem from "@material-ui/core/MenuItem"
 
+import { FiFrown, FiSmile } from "react-icons/fi"
+
 import data from "../../data/sentiment-genre-artist.json"
 
 const Sentiment = () => {
@@ -37,7 +39,9 @@ const Sentiment = () => {
   )
 
   return (
-    <div>
+    <div
+      style={{ marginTop: `60px`, marginBottom: `60px`, textAlign: `center` }}
+    >
       <h3
         style={{
           display: `flex`,
@@ -62,8 +66,15 @@ const Sentiment = () => {
         </Select>{" "}
         genre?
       </h3>
-
-      <h4>Saddest</h4>
+      <h4
+        style={{
+          display: `flex`,
+          alignItems: `center`,
+          justifyContent: `center`,
+        }}
+      >
+        Saddest <FiFrown style={{ marginLeft: `15px` }} size={30} />
+      </h4>
       <div
         style={{
           display: `flex`,
@@ -81,7 +92,15 @@ const Sentiment = () => {
           />
         ))}
       </div>
-      <h4>Happiest</h4>
+      <h4
+        style={{
+          display: `flex`,
+          alignItems: `center`,
+          justifyContent: `center`,
+        }}
+      >
+        Happiest <FiSmile style={{ marginLeft: `15px` }} size={30} />
+      </h4>
       <div
         style={{
           display: `flex`,

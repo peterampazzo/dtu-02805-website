@@ -22,7 +22,8 @@ By comparing with the word clouds it also makes sense that _Hip-Hop_ is the sadd
 But as the difference from the happiest to the saddest genre is less than 0.2 it is hard to assess if the difference is significant.
 Earlier however we saw that between the saddest and the happiest artist there was about 1.0 difference in sentiment, so let's see which artists are the happiest and the saddest.
 
-**Happiest artists**
+[[center]]
+| **Happiest artists**
 
 | Artist           |    Genre    | Sentiment |
 | ---------------- | :---------: | :-------: |
@@ -44,7 +45,8 @@ The band _Crystal Fighters_, an English-Spanish band characterized by its _progr
 The band normally performs bare-foot in their concerts and dresses-up with feather crowns and other typical hippie ornaments.
 Thus it is not a surprise, to find them between the happiest artists.
 
-**Saddest artists**
+[[center]]
+| **Saddest artists**
 
 | Artist              |  Genre  | Sentiment |
 | ------------------- | :-----: | :-------: |

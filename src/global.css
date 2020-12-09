@@ -27,6 +27,11 @@ li {
   margin-bottom: 60px;
 }
 
+.center {
+  text-align: center;
+  margin: auto;
+}
+
 table {
   background: white;
   border-radius: 3px;

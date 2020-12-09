@@ -44,7 +44,7 @@ module.exports = {
               maxWidth: 890,
               linkImagesToOriginal: false,
               quality: 80,
-              wrapperStyle: `margin-top:60px;margin-bottom:60px;`
+              wrapperStyle: `margin-top:60px;margin-bottom:60px;`,
             },
           },
           {
@@ -59,7 +59,10 @@ module.exports = {
               blocks: {
                 space: {
                   classes: "spacing",
-                }
+                },
+                center: {
+                  classes: "center",
+                },
               },
             },
           },
