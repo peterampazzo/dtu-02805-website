@@ -10,7 +10,7 @@ The data used for the analysis was extracted from [Spotify Web API](https://deve
 
 <img src="../images/ab_s3.png" width="25%">
 
-The detailed analysis behind the webpage can by found in the [Explainer notebook](), and the code and the data can be found in the links below:
+The detailed analysis behind the webpage can be found in the [Explainer notebook](), the code and the data can be found in the links below and in the page footer:
 
 - Link to the [github](https://github.com/andreas-kaae/socialgraphs2020_artists_collaborations_network) repository with notebooks for the analysis and data collection.
 - Link to the [github](https://github.com/peterampazzo/dtu-02805-website/) repository for the creation of the webpage.
