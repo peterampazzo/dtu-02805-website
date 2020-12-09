@@ -1,0 +1,58 @@
+[
+  {
+    "genre": "Alternative",
+    "Other": 71.88160676532769,
+    "Alternative": 28.118393234672304,
+    "AlternativeColor": "rgb(212,175,55)",
+    "OtherColor": "#B0C4DE"
+  },
+  {
+    "genre": "Country",
+    "Other": 54.88530161427357,
+    "OtherColor": "#B0C4DE",
+    "Country": 45.11469838572642,
+    "CountryColor": "rgb(255,165,0)"
+  },
+  {
+    "genre": "Funk-Soul",
+    "Other": 79.8,
+    "OtherColor": "#B0C4DE",
+    "Funk-Soul": 20.2,
+    "Funk-SoulColor": "rgb(0,191,255)"
+  },
+  {
+    "genre": "Hip-Hop",
+    "Other": 36.37173396674584,
+    "OtherColor": "#B0C4DE",
+    "Hip-Hop": 63.62826603325416,
+    "Hip-HopColor": "rgb(138,43,226)"
+  },
+  {
+    "genre": "Pop",
+    "Other": 68.15217391304348,
+    "OtherColor": "#B0C4DE",
+    "Pop": 31.847826086956523,
+    "PopColor": "rgb(255,20,147)"
+  },
+  {
+    "genre": "Punk",
+    "Other": 82.59259259259261,
+    "OtherColor": "#B0C4DE",
+    "Punk": 17.40740740740741,
+    "PunkColor": "rgb(34,139,34)"
+  },
+  {
+    "genre": "Reggae",
+    "Other": 52.822966507177036,
+    "OtherColor": "#B0C4DE",
+    "Reggae": 47.177033492822964,
+    "ReggaeColor": "rgb(144,238,144)"
+  },
+  {
+    "genre": "Rock",
+    "Other": 64.98881431767339,
+    "OtherColor": "#B0C4DE",
+    "Rock": 35.01118568232662,
+    "RockColor": "rgb(65,105,225)"
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "genre": "Rock",
+    "happiest": [
+      { "name": "Taj Mahal", "sentiment": 5.868122629541813 },
+      { "name": "Lee Hazlewood", "sentiment": 5.863365300086097 },
+      { "name": "Iron Butterfly", "sentiment": 5.845704888752807 },
+      { "name": "Magic Sam", "sentiment": 5.835081874849607 },
+      { "name": "Los Lobos", "sentiment": 5.816459894053115 }
+    ],
+    "saddest": [
+      { "name": "Mot\u00f6rhead", "sentiment": 5.089277913713843 },
+      { "name": "Black Label Society", "sentiment": 5.12303035037635 },
+      { "name": "Slayer", "sentiment": 5.1918126993187705 },
+      { "name": "Anthrax", "sentiment": 5.238099484548657 },
+      { "name": "King Crimson", "sentiment": 5.253790283859286 }
+    ]
+  },
+  {
+    "genre": "Hip-Hop",
+    "happiest": [
+      { "name": "Shop Boyz", "sentiment": 5.78623782634768 },
+      { "name": "EARTHGANG", "sentiment": 5.698963782972978 },
+      { "name": "Soulja Boy", "sentiment": 5.698838940120373 },
+      { "name": "Steve Lacy", "sentiment": 5.697867381172396 },
+      { "name": "PARTYNEXTDOOR", "sentiment": 5.663585939646275 }
+    ],
+    "saddest": [
+      { "name": "Sheck Wes", "sentiment": 5.087021038923892 },
+      { "name": "Bone Crusher", "sentiment": 5.14527210350317 },
+      { "name": "Onyx", "sentiment": 5.14909045913144 },
+      { "name": "Westside Connection", "sentiment": 5.151953254906304 },
+      { "name": "JT Money", "sentiment": 5.157385826228982 }
+    ]
+  },
+  {
+    "genre": "Pop",
+    "happiest": [
+      { "name": "Mauro Picotto", "sentiment": 5.929932696190606 },
+      { "name": "Benny Benassi", "sentiment": 5.912771997692271 },
+      { "name": "Yves Larock", "sentiment": 5.832741935483872 },
+      { "name": "The Shamen", "sentiment": 5.822080923903601 },
+      { "name": "Robin S", "sentiment": 5.810825443092887 }
+    ],
+    "saddest": [
+      { "name": "Alvin Risk", "sentiment": 4.972694423376312 },
+      { "name": "Tujamo", "sentiment": 5.00658439920735 },
+      { "name": "Gabry Ponte", "sentiment": 5.044073517126149 },
+      { "name": "Herobust", "sentiment": 5.127723818209455 },
+      { "name": "Datsik", "sentiment": 5.195891289341834 }
+    ]
+  },
+  {
+    "genre": "Punk",
+    "happiest": [
+      { "name": "Don Moen", "sentiment": 5.876502065905567 },
+      { "name": "Israel Houghton", "sentiment": 5.736953633193396 },
+      { "name": "Chris August", "sentiment": 5.730150946350506 },
+      { "name": "Galactic", "sentiment": 5.701063295609813 },
+      { "name": "Sandi Patty", "sentiment": 5.684397009843965 }
+    ],
+    "saddest": [
+      { "name": "KMFDM", "sentiment": 5.152144407950848 },
+      { "name": "Billy Talent", "sentiment": 5.176874179879432 },
+      { "name": "Black Veil Brides", "sentiment": 5.203708453856324 },
+      { "name": "The Mars Volta", "sentiment": 5.217780275590959 },
+      { "name": "Blaze Ya Dead Homie", "sentiment": 5.251253540475468 }
+    ]
+  },
+  {
+    "genre": "Alternative",
+    "happiest": [
+      { "name": "Crystal Fighters", "sentiment": 5.884587924058512 },
+      { "name": "Fatboy Slim", "sentiment": 5.849641683054187 },
+      { "name": "MSTRKRFT", "sentiment": 5.844534653043849 },
+      { "name": "Lana Del Rey", "sentiment": 5.81351695080229 },
+      { "name": "Daft Punk", "sentiment": 5.812062706328333 }
+    ],
+    "saddest": [
+      { "name": "Hooverphonic", "sentiment": 5.161032062742093 },
+      { "name": "The Hives", "sentiment": 5.258621263441856 },
+      { "name": "Zebra Katz", "sentiment": 5.275552602594689 },
+      { "name": "Kid Koala", "sentiment": 5.275718659836307 },
+      { "name": "Tom Morello", "sentiment": 5.280491919985679 }
+    ]
+  },
+  {
+    "genre": "Funk-Soul",
+    "happiest": [
+      { "name": "Hezekiah Walker", "sentiment": 6.102509200980014 },
+      { "name": "Cheryl Lynn", "sentiment": 5.938553250972836 },
+      { "name": "Gwen McCrae", "sentiment": 5.92351148383765 },
+      { "name": "George McCrae", "sentiment": 5.921203593371812 },
+      { "name": "Shuggie Otis", "sentiment": 5.88795418617737 }
+    ],
+    "saddest": [
+      { "name": "Fela Kuti", "sentiment": 5.218750162177453 },
+      { "name": "Loose Ends", "sentiment": 5.278187868714202 },
+      { "name": "Rah Digga", "sentiment": 5.333347547349979 },
+      { "name": "Fred Hammond", "sentiment": 5.346442477944983 },
+      { "name": "BbyMutha", "sentiment": 5.354195231780597 }
+    ]
+  },
+  {
+    "genre": "Reggae",
+    "happiest": [
+      { "name": "Alaine", "sentiment": 5.825395218135883 },
+      { "name": "Gappy Ranks", "sentiment": 5.805636954168171 },
+      { "name": "Johnny Osbourne", "sentiment": 5.78986756887221 },
+      { "name": "Mishka", "sentiment": 5.77324459087004 },
+      { "name": "Michael Franti & Spearhead", "sentiment": 5.7626556726843505 }
+    ],
+    "saddest": [
+      { "name": "Capleton", "sentiment": 5.240462268967384 },
+      { "name": "Bounty Killer", "sentiment": 5.2480381850274735 },
+      { "name": "Culture", "sentiment": 5.261424573122919 },
+      { "name": "Bushman", "sentiment": 5.278162681633612 },
+      { "name": "Inner Circle", "sentiment": 5.281656326964394 }
+    ]
+  },
+  {
+    "genre": "Country",
+    "happiest": [
+      { "name": "Faith Hill", "sentiment": 5.754618744900966 },
+      { "name": "Clare Dunn", "sentiment": 5.72745132663099 },
+      { "name": "The Bellamy Brothers", "sentiment": 5.708578916557491 },
+      { "name": "Jim Reeves", "sentiment": 5.70748215673373 },
+      { "name": "Gabby Barrett", "sentiment": 5.705901148682112 }
+    ],
+    "saddest": [
+      { "name": "Boondox", "sentiment": 5.291640034087715 },
+      { "name": "Johnny Cash", "sentiment": 5.329955325614331 },
+      { "name": "Midland", "sentiment": 5.347346172386753 },
+      { "name": "Clay Walker", "sentiment": 5.351380533010651 },
+      { "name": "Roger Miller", "sentiment": 5.351705093270738 }
+    ]
+  }
+]

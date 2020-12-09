@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Lil Wayne",
+    "genre": "Hip-Hop",
+    "degree": 186,
+    "popularity": 92,
+    "image": "https://pbs.twimg.com/profile_images/1044693697533804546/Z2MiD-wP_400x400.jpg"
+  },
+  {
+    "name": "Gucci Mane",
+    "genre": "Hip-Hop",
+    "degree": 186,
+    "popularity": 84,
+    "image": "https://pbs.twimg.com/profile_images/1266128305809510403/kRdcl_AF_400x400.jpg"
+  },
+  {
+    "name": "Rick Ross",
+    "genre": "Hip-Hop",
+    "degree": 172,
+    "popularity": 83,
+    "image": "https://pbs.twimg.com/profile_images/1252286386058809349/WxaX-57k_400x400.jpg"
+  },
+  {
+    "name": "Busta Rhymes",
+    "genre": "Hip-Hop",
+    "degree": 159,
+    "popularity": 80,
+    "image": "https://pbs.twimg.com/profile_images/1295448458040619008/cfdW4NJt_400x400.jpg"
+  },
+  {
+    "name": "T.I.",
+    "genre": "Hip-Hop",
+    "degree": 147,
+    "popularity": 81,
+    "image": "https://pbs.twimg.com/profile_images/1116802276075528192/QgYHgL48_400x400.jpg"
+  },
+  {
+    "name": "E-40",
+    "genre": "Hip-Hop",
+    "degree": 146,
+    "popularity": 73,
+    "image": "https://pbs.twimg.com/profile_images/1288118828614868994/Tl7TxjwX_400x400.jpg"
+  },
+  {
+    "name": "French Montana",
+    "genre": "Hip-Hop",
+    "degree": 145,
+    "popularity": 82,
+    "image": "https://pbs.twimg.com/profile_images/1169282225218605056/bINq0_3w_400x400.jpg"
+  },
+  {
+    "name": "The Game",
+    "genre": "Hip-Hop",
+    "degree": 136,
+    "popularity": 77,
+    "image": "https://pbs.twimg.com/profile_images/1313744263398612992/Ls8OrU8q_400x400.jpg"
+  },
+  {
+    "name": "Chris Brown",
+    "genre": "Pop",
+    "degree": 129,
+    "popularity": 92,
+    "image": "https://pbs.twimg.com/profile_images/1334600205174362112/kR4YkEvb_400x400.jpg"
+  },
+  {
+    "name": "Wiz Khalifa",
+    "genre": "Hip-Hop",
+    "degree": 126,
+    "popularity": 88,
+    "image": "https://pbs.twimg.com/profile_images/1317598023032074241/wspprjSM_400x400.jpg"
+  }
+]

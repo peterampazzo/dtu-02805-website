@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "The Beatles",
+      "radius": 5,
+      "depth": 1,
+      "color": "rgb(65,105,225)",
+      "genre": "Rock"
+    },
+    {
+      "id": "Paul McCartney",
+      "radius": 2,
+      "depth": 1,
+      "color": "rgb(65,105,225)",
+      "genre": "Rock"
+    },
+    {
+      "id": "Billy Preston",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(0,191,255)",
+      "genre": "Funk-Soul"
+    },
+    {
+      "id": "John Lennon",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(65,105,225)",
+      "genre": "Rock"
+    },
+    {
+      "id": "George Harrison",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(65,105,225)",
+      "genre": "Rock"
+    },
+    {
+      "id": "Ringo Starr",
+      "radius": 2,
+      "depth": 1,
+      "color": "rgb(65,105,225)",
+      "genre": "Rock"
+    }
+  ],
+  "links": [
+    { "source": "The Beatles", "target": "Paul McCartney", "distance": 60 },
+    { "source": "The Beatles", "target": "Billy Preston", "distance": 60 },
+    { "source": "The Beatles", "target": "John Lennon", "distance": 60 },
+    { "source": "The Beatles", "target": "George Harrison", "distance": 60 },
+    { "source": "The Beatles", "target": "Ringo Starr", "distance": 60 },
+    { "source": "Paul McCartney", "target": "Ringo Starr", "distance": 60 }
+  ]
+}

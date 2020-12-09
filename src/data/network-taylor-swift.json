@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "Taylor Swift",
+      "radius": 15,
+      "depth": 1,
+      "color": "rgb(255,20,147)",
+      "genre": "Pop"
+    },
+    {
+      "id": "Clean Bandit",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(255,20,147)",
+      "genre": "Pop"
+    },
+    {
+      "id": "Future",
+      "radius": 3,
+      "depth": 1,
+      "color": "rgb(138,43,226)",
+      "genre": "Hip-Hop"
+    },
+    {
+      "id": "Kendrick Lamar",
+      "radius": 2,
+      "depth": 1,
+      "color": "rgb(138,43,226)",
+      "genre": "Hip-Hop"
+    },
+    {
+      "id": "Ed Sheeran",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(255,20,147)",
+      "genre": "Pop"
+    },
+    {
+      "id": "Colbie Caillat",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(255,20,147)",
+      "genre": "Pop"
+    },
+    {
+      "id": "B.o.B",
+      "radius": 2,
+      "depth": 1,
+      "color": "rgb(138,43,226)",
+      "genre": "Hip-Hop"
+    },
+    {
+      "id": "Boys Like Girls",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(34,139,34)",
+      "genre": "Punk"
+    },
+    {
+      "id": "Kenny Chesney",
+      "radius": 2,
+      "depth": 1,
+      "color": "rgb(255,165,0)",
+      "genre": "Country"
+    },
+    {
+      "id": "Shawn Mendes",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(255,20,147)",
+      "genre": "Pop"
+    },
+    {
+      "id": "Sugarland",
+      "radius": 2,
+      "depth": 1,
+      "color": "rgb(255,165,0)",
+      "genre": "Country"
+    },
+    {
+      "id": "Panic! At The Disco",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(34,139,34)",
+      "genre": "Punk"
+    },
+    {
+      "id": "The Chicks",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(255,165,0)",
+      "genre": "Country"
+    },
+    {
+      "id": "Bon Iver",
+      "radius": 1,
+      "depth": 1,
+      "color": "rgb(212,175,55)",
+      "genre": "Alternative"
+    },
+    {
+      "id": "Little Big Town",
+      "radius": 2,
+      "depth": 1,
+      "color": "rgb(255,165,0)",
+      "genre": "Country"
+    },
+    {
+      "id": "Tim McGraw",
+      "radius": 2,
+      "depth": 1,
+      "color": "rgb(255,165,0)",
+      "genre": "Country"
+    }
+  ],
+  "links": [
+    { "source": "Taylor Swift", "target": "Clean Bandit", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Future", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Kendrick Lamar", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Ed Sheeran", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Colbie Caillat", "distance": 60 },
+    { "source": "Taylor Swift", "target": "B.o.B", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Boys Like Girls", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Kenny Chesney", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Shawn Mendes", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Sugarland", "distance": 60 },
+    {
+      "source": "Taylor Swift",
+      "target": "Panic! At The Disco",
+      "distance": 60
+    },
+    { "source": "Taylor Swift", "target": "The Chicks", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Bon Iver", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Little Big Town", "distance": 60 },
+    { "source": "Taylor Swift", "target": "Tim McGraw", "distance": 60 },
+    { "source": "Future", "target": "B.o.B", "distance": 60 },
+    { "source": "Future", "target": "Kendrick Lamar", "distance": 60 },
+    { "source": "Kenny Chesney", "target": "Tim McGraw", "distance": 60 },
+    { "source": "Sugarland", "target": "Little Big Town", "distance": 60 }
+  ]
+}
