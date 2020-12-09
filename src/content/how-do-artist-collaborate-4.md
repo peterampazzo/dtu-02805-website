@@ -21,21 +21,21 @@ The boxplot shows small differences between the groups but together with the wea
 However, as this analysis is only carried out on a small proportion of the total number of songs for every artist the conclusion could potentially change by adding more lyrics.
 
 ## Timeline
-
-As a final measure, we want to establish if the number of collaborations has changed throughout the history of time.
-As the graph below shows the number of songs released has changed dramatically throughout time.
-This is only including the lyrics downloaded for every artist.
+As a final measure we want to answer the question
+_Has the number of collaborations changed throughout the history of time?_
+To answer this we first need to understand how the amount of songs downloaded have are distributed over time.
 
 <img src="../images/song_pr_year.png" width="75%" align="center" />
 
-The graph above resembles an exponential function. Before the 1960's not many songs are released in our dataset.
+The graph above resembles an exponential function. Before the 1960s not many songs are released in our dataset.
 However, after this point more and more songs are released and as we get closer to 2020 the number of songs released increases exponentially.
 This plot only shows the evolution of the songs in total.
 To see if the pattern is similar for the different genres the visualization below is constructed.
 <img src="../images/area_plot.png" width="75%" />
 
 The area plot illustrates how different genres have evolved throughout time for our subset of artists and songs.
-In the 1960's most of the songs released were from the genre _Funk-Soul_ while from 1970 to 1990 _Rock_ is the dominant genre.
+Due to the limited about of songs before 1960 these are not included in the graph.
+In the 1960s most of the songs released were from the genre _Funk-Soul_ while from 1970 to 1990 _Rock_ is the dominant genre.
 After 1990 the genres _Pop_, _Hip-Hop_ and _Alternative_ becomes the dominant genres.
 
 Finally to answer the question the average degree over time is visualized below.
