@@ -1,8 +1,10 @@
 ---
 id: 4.3
 ---
+## Sentiment
 
-Previously we looked into how the sentiment and level of collaboration were related, but we did not dive deeper into the sentiment which is why we will focus on this, to begin with.
+Previously we looked into how the sentiment and level of collaboration were related, but we did not dive deeper into the sentiment which is why we will focus on this now.
+To begin with let's rank the genres by their sentiment.
 
 | Placement |    Genre    | Avg. sentiment |
 | --------- | :---------: | :------------: |
