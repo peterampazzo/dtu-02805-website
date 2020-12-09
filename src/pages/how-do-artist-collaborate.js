@@ -66,10 +66,6 @@ const Page3 = ({ data }) => {
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: data.part5.html }}
       />
-      <div
-        className="blog-post-content"
-        dangerouslySetInnerHTML={{ __html: data.part6.html }}
-      />
     </Layout>
   )
 }
@@ -91,9 +87,6 @@ export const pageQuery = graphql`
       html
     }
     part5: markdownRemark(frontmatter: { id: { eq: 3.5 } }) {
-      html
-    }
-    part6: markdownRemark(frontmatter: { id: { eq: 3.6 } }) {
       html
     }
   }

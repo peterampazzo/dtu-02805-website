@@ -8,8 +8,7 @@ const IndexPage = ({ data }) => {
   const { html } = markdownRemark
   return (
     <Layout
-      title="Titolo"
-      sub="Sottotitolo"
+      title="Introduction"
       nav={{
         next: { title: "About", link: "/about/" },
       }}
