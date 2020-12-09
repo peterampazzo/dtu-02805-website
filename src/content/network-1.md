@@ -2,7 +2,7 @@
 id: 2.2
 ---
 
-As seen in the examples of the wordclouds above there is a clear theme in each of the wordclouds. Thus it is possible to identify a main genre that comprises all genres from the community and thus label the community accordingly.
+As seen in the examples of the word clouds above there is a clear theme in each of the word clouds. Thus it is possible to identify a main genre that comprises all genres from the community and thus label the community accordingly.
 
 This procedure does however not guranteee that the genre of every artist will be 100% correct.
 As the genre of an artist is based on the partitions of the network they will greatly rely on the underlying procedure of constructing the partitions.
