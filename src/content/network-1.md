@@ -23,7 +23,7 @@ To begin with lets look at how the nodes are distributed between the genres.
 <img src="../images/number_nodes_genre.png" width="75%" />
 
 The graph shows, as we expected, that the number of artists is very unbalanced between the 8 genres.
-_Hip-Hop_ is forexample represented twice as much as _Pop_, which is something that has to be kept in mind through out the analysis.
+_Hip-Hop_ is for example represented twice as much as _Pop_, which is something that has to be kept in mind through out the analysis.
 
 ### Network Density
 
