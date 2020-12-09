@@ -3,7 +3,7 @@ id: 0
 ---
 
 This webpage is made as a part of the final exam project for the course 02805, Social graphs and interactions, at DTU during the fall of 2020.
-For general information about the project and where to find the [_Explainer notebook_]() and underlying code please go to the [about page](/about/).
+For general information about the project and where to find the [_Explainer notebook_](https://nbviewer.jupyter.org/github/andreas-kaae/socialgraphs2020_artists_collaborations_network/blob/main/main_TheExplainerNotebook.ipynb) and underlying code please go to the [about page](/about/).
 
 ## Motivation
 

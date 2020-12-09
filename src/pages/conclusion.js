@@ -14,7 +14,6 @@ const Page5 = ({ data }) => {
       title="Conclusion"
       nav={{
         prev: { title: "Text Analysis", link: "/text-analysis/" },
-        next: { title: "Explainer Notebook", link: "/network/" },
       }}
     >
       <SEO title="Conclusion" />
