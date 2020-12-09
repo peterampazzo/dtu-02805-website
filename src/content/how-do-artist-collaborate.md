@@ -19,5 +19,5 @@ To do so, we will explore the relation of collaborations with 4 different parame
 
 Each of these parameters will be held against the level of collaborations which directly translates to the degree of the nodes of the network.
 
-Before starting it is intersting to take a look at the Top collaborators of the Network, thus the _kings and queens
+Before starting it is intersting to take a look at the Top collaborators of the Network, in other words the _kings and queens
 of collaborations_:
