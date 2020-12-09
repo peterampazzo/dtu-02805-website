@@ -13,7 +13,7 @@ To put into the context of the network it means that if an artist collaborates w
 
 ### Degree Distribution
 
-With our network the degree is especially relevant since the number of collaborations
+In our network, the degree is especially relevant, as the number of collaborations
 directly translate to the degree of a node.
 
 <img src="../images/deg_dist.png" width="75%" />
