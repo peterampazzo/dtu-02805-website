@@ -68,7 +68,15 @@ const Page3 = ({ data }) => {
       />
 
       {/* cards */}
-      <div style={{ display: `flex`, flexWrap: `wrap`, justifyContent: `center`, marginTop: `40px`, marginBottom: `40px` }}>
+      <div
+        style={{
+          display: `flex`,
+          flexWrap: `wrap`,
+          justifyContent: `center`,
+          marginTop: `40px`,
+          marginBottom: `40px`,
+        }}
+      >
         {artists.map((item, i) => (
           <Card
             name={item.name}
@@ -84,12 +92,12 @@ const Page3 = ({ data }) => {
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: data.part2.html }}
       />
-      <Genres />
+      <GenresCollab />
       <div
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: data.part3.html }}
       />
-      <GenresCollab />
+      <Genres />
       <div
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: data.part4.html }}

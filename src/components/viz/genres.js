@@ -19,10 +19,13 @@ const Genres = () => {
       style={{
         display: `flex`,
         flexDirection: `column`,
-        marginTop: `40px`,
-        marginBottom: `40px`,
+        marginTop: `60px`,
+        marginBottom: `60px`,
       }}
     >
+      <h3 style={{ textAlign: `center`, marginBottom: `5px` }}>
+        Collaborations ratios between genres
+      </h3>
       <FormControl component="fieldset" style={{ margin: `auto` }}>
         <RadioGroup
           aria-label="plot"
@@ -42,7 +45,6 @@ const Genres = () => {
           <FormControlLabel value={"2"} control={<Radio />} label="Internal" />
         </RadioGroup>
       </FormControl>
-
       <div style={{ height: `450px` }}>
         <ResponsiveBar
           data={data === "1" ? dataComplete : dataMerged}
