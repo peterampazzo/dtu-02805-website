@@ -53,6 +53,16 @@ module.exports = {
               strict: `ignore`,
             },
           },
+          {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                space: {
+                  classes: "spacing",
+                }
+              },
+            },
+          },
         ],
       },
     },

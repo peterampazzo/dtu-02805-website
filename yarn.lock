@@ -6743,6 +6743,14 @@ gatsby-recipes@^0.3.1:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
+gatsby-remark-custom-blocks@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-custom-blocks/-/gatsby-remark-custom-blocks-2.6.0.tgz#c3238122e7cf94b3f801f4ff2ce07096e2029141"
+  integrity sha512-5DNOUvGEHaJ54/BCSacnBOBtggfXDW8BgLk6X7hJUqY0tb0yo/NtXkRBLijQ8ICdpSLMpySUQhHFLdXG9/vRgw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    remark-custom-blocks "^2.5.0"
+
 gatsby-remark-images@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.7.0.tgz#31df6510b2f88e7e8a2b104080ba4243fe550cd6"
@@ -12133,6 +12141,13 @@ regjsparser@^0.6.4:
   dependencies:
     jsesc "~0.5.0"
 
+remark-custom-blocks@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/remark-custom-blocks/-/remark-custom-blocks-2.5.0.tgz#57cfb814b2c867fbd45a2e331582a1e402e0c4e5"
+  integrity sha512-FcCd5Boqn4XBXnlIvpy/9jyVTOZRg7unXv8m14FM4EM0qXLeSvxSReRfuoWmFWZwi0+MOf8bqEwJIBut0NYdJw==
+  dependencies:
+    space-separated-tokens "^1.1.5"
+
 remark-math@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/remark-math/-/remark-math-1.0.6.tgz#49eb3dd15d298734c9ae21673115389793af4d1b"
@@ -13051,7 +13066,7 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-space-separated-tokens@^1.0.0:
+space-separated-tokens@^1.0.0, space-separated-tokens@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-1.1.5.tgz#85f32c3d10d9682007e917414ddc5c26d1aa6899"
   integrity sha512-q/JSVd1Lptzhf5bkYm4ob4iWPjx0KiRe3sRFBNrVqbJkFaBm5vbbowy1mymoPNLRa52+oadOhJ+K49wsSeSjTA==
