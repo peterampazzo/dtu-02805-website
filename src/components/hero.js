@@ -4,20 +4,20 @@ const Hero = ({ title, sub }) => {
   return (
     <div
       style={{
-        backgroundColor: `#191414`,
-        color: `#1bd954`,
+        backgroundColor: `#3cb371`,
+        color: `#191414`,
         padding: `60px`,
         display: `flex`,
-        flexDirection: `column`,
         alignItems: `center`,
         justifyContent: `center`,
       }}
+      className="pattern-dots-md"
     >
       <h1
         style={{
+          color: `#fff`,
           margin: `auto`,
           fontSize: `80px`,
-          fontWeight: 700,
           textTransform: `uppercase`,
         }}
       >

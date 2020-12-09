@@ -2,7 +2,12 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
-import { FiChevronRight, FiChevronLeft } from "react-icons/fi"
+import {
+  FiChevronRight,
+  FiChevronLeft,
+  FiGithub,
+  FiFileText,
+} from "react-icons/fi"
 
 import Header from "./header"
 import Hero from "./hero"
@@ -29,8 +34,8 @@ const Layout = ({ children, title, sub, nav }) => {
         display: `flex`,
         justifyContent: start ? `flex-start` : `flex-end`,
         alignItems: `center`,
-        color: `#1bd954`,
-        backgroundColor: `#191414`,
+        color: `#fff`,
+        backgroundColor: `#3cb371`,
         padding: `10px`,
         borderRadius: `15px`,
         boxShadow: `-10px 10px 60px rgba(0,0,0,.4)`,
@@ -63,7 +68,7 @@ const Layout = ({ children, title, sub, nav }) => {
             <div
               style={{
                 marginTop: `20px`,
-                borderTopColor: `#1bd954`,
+                borderTopColor: `#191414`,
                 borderTopWidth: `3px`,
                 borderTopStyle: `solid`,
                 padding: `20px`,
@@ -90,6 +95,28 @@ const Layout = ({ children, title, sub, nav }) => {
             </div>
           )}
         </main>
+        <footer
+          style={{
+            backgroundColor: `#191414`,
+            display: `flex`,
+            margin: `auto`,
+            padding: `40px`,
+            marginTop: `40px`,
+            fontSize: "20px",
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <a href="">
+            <FiGithub
+              size={40}
+              style={{ marginRight: `30px`, color: `#3cb371` }}
+            />
+          </a>
+          <a href="">
+            <FiFileText size={40} style={{ color: `#3cb371` }} />
+          </a>
+        </footer>
       </div>
     </>
   )

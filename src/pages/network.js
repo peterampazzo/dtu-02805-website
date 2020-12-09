@@ -63,7 +63,7 @@ const Part2 = ({ data }) => {
           ))}
         </Select>
       </h3>
-      <div style={{ margin: `auto`, width: `650px`, marginBottom: `20px` }}>
+      <div style={{ margin: `auto`, width: `650px`,  marginBottom: `20px` }}>
         {wordCloud === "Alternative" && (
           <Img alt="" fluid={data.alternative.childImageSharp.fluid} />
         )}
