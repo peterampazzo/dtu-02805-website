@@ -26,3 +26,6 @@ By choosing different artists and including more song lyrics the results and con
 Furthermore, many of the conclusions are based on the genres of the artists which were constructed from the partitions of the genres network.
 The chosen genres for every artist thus might not be always correct and the fact that artists can be in several genres is not taken into account,
 which again might influence the results.
+
+
+As a final feature below the network of collaborations for some of the favorite artists of the authors are showed.
