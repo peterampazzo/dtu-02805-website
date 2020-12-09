@@ -7,13 +7,13 @@ If we look at the popularity of the top 10 collaborators, it is possible to see 
 More interesting is that all except one artist are from the genre _Hip-Hop_ and thus mainly rappers.
 We could already make some hypothesis, will _Hip-Hop_ artists be the ones that have more collaborations?
 
-It is as well interesting to see that only two of the most central artists, Lil Wayne* and *Busta Rhymes*, appear as well in the top collaborators.
-Following the example used when evaluating centrality, we can conclude that *Pitbull* is only a central element and not a part of the *kings of collaborations*,
+It is as well interesting to see that only two of the most central artists, _Lil Wayne_ and _Busta Rhymes_, appear as well in the top collaborators.
+Following the example used when evaluating centrality, we can conclude that _Pitbull_ is only a central element and not a part of the _kings of collaborations_,
 since all the above artists have more collaborations.
 
 ## Popularity
 
-Are the artists that collaborate the most, the ones with the highest popularity?
+_Are the artists that collaborate the most, the ones with the highest popularity?_
 To answer this question we first all need to establish what popularity is.
 The popularity is a measure calculates by Spotify and is a value between 0 and 100, where 100 is the most popular.
 For the artist, the measure is based on the popularity of all the artist's tracks, which again is based on the total number of plays and how recent these plays are.
