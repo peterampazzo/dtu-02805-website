@@ -26,8 +26,6 @@ It is not surprising that the collaborations between artists follow a _power-law
 one would expect that the way artists collaborate should not differ a lot from how scientist collaborate (citations network),
 which is a known _power-law_ network [[ref]](https://www.youtube.com/watch?v=myLgzbXxhOQ&feature=emb_title&ab_channel=SuneLehmann).
 
-However, to understand which characteristics the extreme nodes share, it will be interesting to add in our analysis of
-collaborations a comparison between the extreme nodes and the rest.
-To do so we can make the definition that artists that have 25 or more collaborations are categorized as Top Collaborators.
-Marking the barrier at $degree \geq 25$ allows us to have a sample that reaches 10% of the data.
-Thus a sample big enough to perform comparisons, while still portraying the behaviour of the top range.
+However, to understand which characteristics the extreme nodes share, it will be interesting to perform a comparison between the extreme nodes and the rest.
+To do so we categorize artists that have 25 or more collaborations as Top Collaborators.
+Marking the barrier at $degree \geq 25$ allows us to have a sample big enough for comparisons (10% of the data), while still portraying the behaviour of the top range.
